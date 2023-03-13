@@ -6,7 +6,8 @@
     clip-path: polygon(50% 0%, 100% 0, 100% 69%, 0 100%, 0% 75%, 0 0);
     background-color: #FAF4F4;
 }
-.top-banner-cont{
+
+.top-banner-cont {
     background-color: #FAF4F4;
 }
 
@@ -23,14 +24,15 @@
     letter-spacing: 0.2rem;
     text-shadow: 0px 0px 2px #fff;
 }
-.svg_section > .card-group > .card > img{
+
+.svg_section>.card-group>.card>img {
     min-width: min-content;
     max-width: 0.5rem;
     height: auto;
 }
 
 #heading-blue {
-    color: #0d6efd;
+    color: #0E75BB;
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
@@ -56,13 +58,16 @@
 #double-shaded-text>span:last-child {
     color: #888;
 }
-#double-shaded-text-blue>span:last-child{
-    color: #0d6efd;
+
+#double-shaded-text-blue>span:last-child {
+    color: #0E75BB;
 }
-#double-shaded-text-blue>span:first-child{
+
+#double-shaded-text-blue>span:first-child {
     color: #000;
 }
-#about-us-top{
+
+#about-us-top {
     background-color: #FAF4F4;
 }
 
@@ -121,7 +126,8 @@
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
-#about-us-strip>.parallax-content> p{
+
+#about-us-strip>.parallax-content>p {
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
@@ -131,13 +137,14 @@
 }
 
 
-#our-partners > .container > .row{
+#our-partners>.container>.row {
     display: flexbox;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
-.cursor-cont{
+
+.cursor-cont {
     position: absolute;
     top: 0;
     left: 0;
@@ -150,7 +157,8 @@
     /* transform: translate(-50%, -50%); */
     background: #d0d0d06c;
 }
-.cursor{
+
+.cursor {
     position: absolute;
     top: 0;
     left: 0;
@@ -163,28 +171,33 @@
     pointer-events: none;
     /* background: #d0d0d06c; */
 }
-#why-cloudologic >  .container > p{
+
+#why-cloudologic>.container>p {
     font-size: 1rem;
     font-weight: 400;
     color: #1c1c1d;
     text-align: center;
 }
-.services.container > div > div > .card{
+
+.services.container>div>div>.card {
     border: none;
     border-radius: 10px;
 }
-.services.container > div > div > .card > .card-body{
+
+.services.container>div>div>.card>.card-body {
     padding: 1rem;
 }
-.services.container > div > div > .card > .card-body > h5 > span:first-child{
+
+.services.container>div>div>.card>.card-body>h5>span:first-child {
     font-size: 1rem;
     font-weight: 700;
-    color: #0d6efd;
+    color: #0E75BB;
     text-align: center;
     text-transform: uppercase;
     /* letter-spacing: 0.2rem; */
 }
-.services.container > div > div > .card > .card-body > h5 > span:last-child{
+
+.services.container>div>div>.card>.card-body>h5>span:last-child {
     font-size: 1rem;
     font-weight: 700;
     color: #1c1c1d;
@@ -192,13 +205,15 @@
     text-transform: uppercase;
     /* letter-spacing: 0.2rem; */
 }
-.services.container > div > div > .card > .card-body > p{
+
+.services.container>div>div>.card>.card-body>p {
     font-size: 0.9rem;
     font-weight: 400;
     color: #494949;
     text-align: justify;
 }
-#banner_2{
+
+#banner_2 {
     background-image: url(../assets/homepage/parallax-image-2.webp);
     background-size: cover;
     background-position: center;
@@ -210,7 +225,8 @@
     position: relative;
     overflow: hidden;
 }
-#banner_2 > div > h4{
+
+#banner_2>div>h4 {
     /* position: absolute; */
     top: 50%;
     left: 50%;
@@ -223,13 +239,15 @@
     /* letter-spacing: 0.2rem; */
     text-shadow: 0px 0px 1px #fff;
 }
-#banner_2 > div{
+
+#banner_2>div {
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -20%);
 }
-#banner_2 > div > p{
+
+#banner_2>div>p {
     color: #fff;
     font-size: 1rem;
     font-weight: 400;
@@ -238,8 +256,9 @@
     /* letter-spacing: 0.2rem; */
     /* text-shadow: 0px 0px 2px #fff; */
 }
-#banner_2 > div > div > button{
-    /* background-color: #0d6efd; */
+
+#banner_2>div>div>button {
+    /* background-color: #0E75BB; */
     border: none;
     border-radius: 10px;
     color: #fff;
@@ -252,8 +271,9 @@
     margin: 0.5rem;
     cursor: pointer;
 }
-#banner_2 > div > div > button:hover{
-    /* background-color: #0d6efd; */
+
+#banner_2>div>div>button:hover {
+    /* background-color: #0E75BB; */
     border: none;
     border-radius: 10px;
     color: #fff;
@@ -266,7 +286,8 @@
     margin: 0.5rem;
     cursor: pointer;
 }
-#banner_2 > div > div > p{
+
+#banner_2>div>div>p {
     color: #fff;
     font-size: 1rem;
     font-weight: 400;
@@ -284,62 +305,71 @@
     }
 }
 
-#how_we_work > div.container > div > div > .card{
+#how_we_work>div.container>div>div>.card {
     border: none;
     border-radius: 10px;
     /* box-shadow: 1px 1px 5px #494949; */
 }
 
-#how_we_work > div.container > div > div > .card > .card-top-img > img{
+#how_we_work>div.container>div>div>.card>.card-top-img>img {
     border-radius: 20px;
 }
 
-#how_we_work > div.container > div > div > .card > .card-body{
+#how_we_work>div.container>div>div>.card>.card-body {
     padding: 1rem 0rem;
 }
 
-#how_we_work > div.container > div > div > .card > .card-body > h4{
+#how_we_work>div.container>div>div>.card>.card-body>h4 {
     color: #0d4eb0;
     font-size: 1.3rem;
 }
-#how_we_work > div.container > div > div > .card > .card-body > p{
+
+#how_we_work>div.container>div>div>.card>.card-body>p {
     color: #494949;
     font-size: 1rem;
     text-align: justify;
 }
-#why_switch > div.container > p{
+
+#why_switch>div.container>p {
     font-size: 1rem;
     font-weight: 400;
     color: #484848;
     text-align: center;
 }
-.svg_section > .card-group > .card{
+
+.svg_section>.card-group>.card {
     border: none;
     border-radius: 10px;
     outline: 0px;
     padding-left: 1rem;
     text-align: center;
 }
-.svg_section > .card-group > .card > .card-body > h5{
+
+.svg_section>.card-group>.card>.card-body>h5 {
     color: #0d4eb0;
     font-size: 1.3rem;
 }
-.card-img-top{
+
+.card-img-top {
     margin: 0px auto;
 }
-.svg_section > .card-group > .card > .card-body{
+
+.svg_section>.card-group>.card>.card-body {
     padding: 1rem 0rem;
 }
-#contact_us{
-    background-color: #0d6efd;
+
+#contact_us {
+    background-color: #0E75BB;
 }
-#contact_us > .row > div:first-child{
+
+#contact_us>.row>div:first-child {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#contact_us > .row > div:first-child > h3{
+
+#contact_us>.row>div:first-child>h3 {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 700;
@@ -348,13 +378,15 @@
     /* letter-spacing: 0.2rem; */
     text-shadow: 0px 0px 1px #fff;
 }
-#contact_us > .row > div:first-child > p{
+
+#contact_us>.row>div:first-child>p {
     color: #fff;
     font-size: 2rem;
     font-weight: 400;
     text-align: center;
 }
-#contact_us > .row > div:last-child {
+
+#contact_us>.row>div:last-child {
     background-color: #8fbcff80;
 }
 
@@ -362,30 +394,37 @@
     #about-us-strip {
         background-attachment: scroll;
     }
+
     .top-banner>h2 {
         font-size: 2rem;
     }
 }
+
 @media screen and (max-width: 768px) {
     #about-us-strip {
         background-attachment: scroll;
     }
-    .top-banner{
+
+    .top-banner {
         clip-path: none;
         height: 10rem;
     }
+
     .top-banner>h2 {
         font-size: 1.2rem;
     }
-    #about-us-strip>.parallax-content{
+
+    #about-us-strip>.parallax-content {
         font-size: 1rem;
         position: static;
         transform: none;
     }
-    #about-us-strip{
+
+    #about-us-strip {
         height: 20rem;
     }
-    #banner_2{
+
+    #banner_2 {
         min-height: 30rem;
     }
 
