@@ -96,7 +96,7 @@
     height: 15rem;
     position: relative;
     overflow: hidden;
-    background-image: url(/assets/homepage/parallax-image-1.webp);
+    background-image: url(../assets/homepage/parallax-image-1.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@
     text-align: justify;
 }
 #banner_2{
-    background-image: url(/assets/homepage/parallax-image-2.webp);
+    background-image: url(../assets/homepage/parallax-image-2.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
