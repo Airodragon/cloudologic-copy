@@ -381,3 +381,6 @@
     font-weight: 400;
     text-align: center;
 }
+#contact_us > .row > div:last-child {
+    background-color: #8fbcff80;
+}
