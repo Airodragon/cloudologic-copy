@@ -131,33 +131,6 @@
 }
 
 
-@media screen and (max-width: 1366px) {
-    #about-us-strip {
-        background-attachment: scroll;
-    }
-    .top-banner>h2 {
-        font-size: 2rem;
-    }
-}
-@media screen and (max-width: 768px) {
-    #about-us-strip {
-        background-attachment: scroll;
-    }
-    .top-banner{
-        clip-path: none;
-        height: 10rem;
-    }
-    .top-banner>h2 {
-        font-size: 1.2rem;
-    }
-    #about-us-strip>.parallax-content{
-        font-size: 1rem;
-        position: static;
-        transform: none;
-
-    }
-
-}
 #our-partners > .container > .row{
     display: flexbox;
     justify-content: space-evenly;
@@ -383,4 +356,37 @@
 }
 #contact_us > .row > div:last-child {
     background-color: #8fbcff80;
+}
+
+@media screen and (max-width: 1366px) {
+    #about-us-strip {
+        background-attachment: scroll;
+    }
+    .top-banner>h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    #about-us-strip {
+        background-attachment: scroll;
+    }
+    .top-banner{
+        clip-path: none;
+        height: 10rem;
+    }
+    .top-banner>h2 {
+        font-size: 1.2rem;
+    }
+    #about-us-strip>.parallax-content{
+        font-size: 1rem;
+        position: static;
+        transform: none;
+    }
+    #about-us-strip{
+        height: 20rem;
+    }
+    #banner_2{
+        min-height: 30rem;
+    }
+
 }
