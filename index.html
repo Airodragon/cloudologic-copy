@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Cloudologic | HOME</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,38 +12,31 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
 
-    <!-- CUSTOM CSS -->
+    <!-- FONT LINKING -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- COMMON CSS -->
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+
+
+    <!-- COMMON JS -->
+    <script src="https://use.fontawesome.com/46bf41fdfd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-    <style>
-        * {
-            font-family: 'Lato', sans-serif;
-            cursor: none !important;
-        }
-
-        body {
-            overflow-x: hidden;
-        }
-    </style>
 </head>
 
 <body>
-
-    <div class="cursor-cont">
-        <div class="cursor"></div>
-    </div>
-
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="./assets/Cloudologic Logo_Black[1024x208].webp" alt="" height="40">
+                    <img src="./assets/Cloudologic_Logo_Black.webp" alt="" height="40">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -58,7 +51,8 @@
                                 Cloud Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./pages/cloud_migration.html">Cloud Migration</a></li>
+                                <li><a class="dropdown-item" href="./pages/cloud_migration.html">Cloud Migration</a>
+                                </li>
                                 <li><a class="dropdown-item" href="#">DevOps</a></li>
                                 <li><a class="dropdown-item" href="#">FinOps</a></li>
                                 <li><a class="dropdown-item" href="#">SecOps</a></li>
@@ -118,18 +112,16 @@
                 </div>
             </div>
         </nav>
-    </header>
 
+    </header>
     <main>
         <div class="top-banner-cont">
-
             <div class="top-banner">
                 <h2>
                     Supporting Innovation And Learning Through Technology
                 </h2>
             </div>
         </div>
-
 
         <section id="about-us-top" class="pt-lg-4 pt-pd-4 pt-sm-1">
             <h4 id="heading-blue">About Us</h4>
@@ -142,12 +134,9 @@
                 </span>
             </h2>
             <div class="strip mt-4">
-                <div class="container pt-2">
-                    <div class="row mt-2 mb-2">
-                        <div class="col-lg-2 col-md-2 col-sm-0">
-
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-8">
+                <div class="container pt-2 pb-2">
+                    <div class="row mt-2 mb-2 justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <p>
                                 At Cloudologic We Help Customers Manage Their Infrastructure And Network Appliances With
                                 An
@@ -164,11 +153,8 @@
                             </p>
 
                         </div>
-                        <div class="col-lg-2 col-md-2 col-sm-0 col-12">
-
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-8 col-12">
-
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-0 mt-md-2 mt-sm-2 mt-2">
+                            <img src="./assets/homepage/about-us-top-right-side.png" alt="" class="img-fluid">
                         </div>
 
                     </div>
@@ -176,7 +162,169 @@
             </div>
         </section>
 
-        <section id="about-us-strip">
+        <section id="partners" class="pt-lg-4 pt-pd-4 pt-sm-1">
+            <div class="container py-5">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h2 id="double-shaded-text-blue" class="text-center">
+                            <span>
+                                Our
+                            </span>
+                            <span>
+                                Partners
+                            </span>
+                        </h2>
+
+                    </div>
+
+                    <div class="row text-center">
+                        <!-- Team item-->
+                        <div class="col-xl-3 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./assets/homepage/partner_1.jpg"
+                                    alt="" width="100" height="100"
+                                    class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Google Cloud</h5>
+                            </div>
+                        </div>
+                        <!-- End-->
+
+
+                        <!-- Team item-->
+                        <div class="col-xl-3 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./assets/homepage/partner_2.jpg"
+                                    alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Microsoft</h5>
+                            </div>
+                        </div>
+                        <!-- End-->
+
+
+
+                        <!-- Team item-->
+                        <div class="col-xl-3 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./assets/homepage/partner_4.png"
+                                    alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">AWS</h5>
+                            </div>
+                        </div>
+                        <!-- End-->
+
+
+
+                        <!-- Team item-->
+                        <div class="col-xl-3 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./assets/homepage/partner_5.png"
+                                    alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Acronis</h5>
+                            </div>
+                        </div>
+                        <!-- End-->
+
+
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="proven-sol">
+            <h2 id="double-shaded-text-blue">
+                <span>
+                    Trust the
+                </span>
+                <span>
+                    Proven Solution
+                </span>
+            </h2>
+            <section id="gallery" class="pt-lg-4 pt-pd-4 pt-sm-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mb-4 px-lg-3 px-md-2 px-sm-1 px-0">
+                            <div class="card">
+                                <img src="./assets/homepage/services_1.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mentoring And Training</h5>
+                                    <p class="card-text">There Are Multiple Cloud Service Providers Available, But Our
+                                        Consultants Have Exceptional Skills And Knowledge. Because Training Is An
+                                        Important Part Of Cloud Computing, We Are Here To Guide You Work More
+                                        Efficiently.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 px-lg-3 px-md-2 px-sm-1 px-0">
+                            <div class="card">
+                                <img src="./assets/homepage/services_2.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Enabling Business Transformation</h5>
+                                    <p class="card-text">We offer a wide range of services to help businesses add value.
+                                        Cloudologic assists businesses in migrating their operations to the cloud in
+                                        order to become more efficient while maximizing the company's potential.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 px-lg-3 px-md-2 px-sm-1 px-0">
+                            <div class="card">
+                                <img src="./assets/homepage/services_3.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Well-Defined Processes</h5>
+                                    <p class="card-text">These cloud service processes are well defined and can help
+                                        businesses improve their agility, scalability and cost efficiency by leveraging
+                                        the benefits of the cloud storage.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 px-lg-3 px-md-2 px-sm-1 px-0">
+                            <div class="card">
+                                <img src="./assets/homepage/services_4.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cost Effective</h5>
+                                    <p class="card-text">Cloudologic can help businesses reduce the costs and risks
+                                        associated with cloud services. By leveraging a variety of cost-saving solutions
+                                        such as reserved instances, auto scaling, and load balancing that can help
+                                        businesses optimize their cloud spend.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 px-lg-3 px-md-2 px-sm-1 px-0">
+                            <div class="card">
+                                <img src="./assets/homepage/services_5.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Security And Reliability</h5>
+                                    <p class="card-text">We address cloud security as a major concern for businesses
+                                        that are moving their operations to the cloud by implementing a variety of
+                                        security measures to protect customer data and applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-4 px-lg-3 px-md-2 px-sm-1 px-0">
+                            <div class="card">
+                                <img src="./assets/homepage/services_6.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">No Downtimes During Migration</h5>
+                                    <p class="card-text">We minimize downtime during migration to the cloud by using
+                                        technologies, thoroughly planning and testing a multi-stage migration approach
+                                        to ensure a smooth transition.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <section id="about-us-strip" class="pt-lg-4 pt-pd-4 pt-sm-1">
             <div class="parallax-content">
                 <p>
                     Customer Quote
@@ -188,338 +336,212 @@
             </div>
         </section>
 
-        <section id="our-partners">
-            <div class="container mt-5">
-                <h2 id="heading-blue" class="mb-3">Our Partners</h2>
-                <div class="row">
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                        <img src="./assets/homepage/partner_1.jpg" alt="partner_1" class="img-fluid">
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                        <img src="./assets/homepage/partner_2.png" alt="partner_2" class="img-fluid">
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                        <img src="./assets/homepage/partner_3.jpg" alt="partner_3" class="img-fluid">
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                        <img src="./assets/homepage/partner_4.png" alt="partner_4" class="img-fluid">
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                        <img src="./assets/homepage/partner_5.png" alt="partner_5" class="img-fluid">
-                    </div>
 
-                </div>
-            </div>
-        </section>
+        <section id="why-switch-cloud" class="pt-lg-4 pt-pd-4 pt-sm-1 pb-lg-4 pb-pd-4 pb-sm-1">
 
 
-        <section id="why-cloudologic">
-            <h2 id="double-shaded-text-blue">
-                <span>Why</span>
-                <span>Cloudologic</span>
-            </h2>
-            <div class="container">
-                <p>
-                    There are many cloud providers out there.But there's no need to scout the industry on your own. We
-                    work with 40+ carefully selected cloud partners. With their offerings at our side, We're Able To
-                    Design A Cloud Solution To Your Company's Unique Needs. We Offer Infrastructure And
-                    Applications That Span Public, Private And Hybrid Clouds.And We'll Work With You To Determine Which
-                    Cloud Solutions And Delivery Methods Will Best Address your Business Needs.
-                </p>
-            </div>
-            <div class="services container">
-                <div class="row row-cols-1 row-col-sm-2 row-cols-md-3 row-cols-lg-3  g-6 justify-content-evenly">
-                    <div class="col mt-2 mb-2">
-                        <div class="card border-0">
-                            <img src="./assets/homepage/services_1.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <span>
-                                        Mentoring
-                                    </span>
-                                    <span>
-                                        And Training
-                                    </span>
-                                </h5>
-                                <p class="card-text">There Are Multiple Cloud Service Providers Available, But Our
-                                    Consultants Have Exceptional Skills And Knowledge. Because Training Is An Important
-                                    Part Of Cloud Computing, We Are Here To Guide You Work More Efficiently.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mt-2 mb-2">
-                        <div class="card border-0">
-                            <img src="./assets/homepage/services_2.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <span>
-                                        Enabling Business
-                                    </span>
-                                    <span>
-                                        Transformation
-                                    </span>
-                                </h5>
-                                <p class="card-text">We offer a wide range of services to help businesses add value.
-                                    Cloudologic assists businesses in migrating their operations to the cloud in order
-                                    to become more efficient while maximizing the company's potential.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mt-2 mb-2">
-                        <div class="card border-0">
-                            <img src="./assets/homepage/services_4.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <span>
-                                        Well-Defined
-                                    </span>
-                                    <span>
-                                        Processes
-                                    </span>
-                                </h5>
-                                <p class="card-text">These cloud service processes are well defined and can help
-                                    businesses improve their agility, scalability and cost efficiency by leveraging the
-                                    benefits of the cloud storage.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mt-2 mb-2">
-                        <div class="card border-0">
-                            <img src="./assets/homepage/services_4.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <span>
-                                        Cost
-                                    </span>
-                                    <span>
-                                        Effective
-                                    </span>
-                                </h5>
-                                <p class="card-text">Cloudologic can help businesses reduce the costs and risks
-                                    associated with cloud services. By leveraging a variety of cost-saving solutions
-                                    such as reserved instances, auto scaling, and load balancing that can help
-                                    businesses optimize their cloud spend.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mt-2 mb-2">
-                        <div class="card border-0">
-                            <img src="./assets/homepage/services_5.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <span>
-                                        Security
-                                    </span>
-                                    <span>
-                                        And Reliability
-                                    </span>
-                                </h5>
-                                <p class="card-text">We address cloud security as a major concern for businesses that
-                                    are moving their operations to the cloud by implementing a variety of security
-                                    measures to protect customer data and applications.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mt-2 mb-2">
-                        <div class="card border-0">
-                            <img src="./assets/homepage/services_6.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <span>
-                                        No Downtimes
-                                    </span>
-                                    <span>
-                                        During Migration
-                                    </span>
-                                </h5>
-                                <p class="card-text">We minimize downtime during migration to the cloud by using
-                                    technologies, thoroughly planning and testing a multi-stage migration approach to
-                                    ensure a smooth transition.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
 
 
-        <section id="banner_2">
-            <div class="container col-lg-7 col-md-9 col-12">
-                <h4>
-                    Protect Your System and data From Cyber Threats
-                </h4>
-                <p class="px-lg-4 px-md-3 px-1">
-                    Cyber Security is essential for any business in today's digital age. With the increasing reliance on
-                    technology and online transactions, it is crucial to protect sensitive information, financial assets
-                    and
-                    reputation from cyber threats such as hacking, data breaches, and cyber attacks. Investing in cyber
-                    security measures not only safeguards your business, but also builds trust with customers and
-                    partners
-                </p>
-                <div class="d-flex justify-content-center px-lg-4 px-md-3 px-1">
-                    <button class="btn btn-primary">
-                        Get an Assessment Today
-                    </button>
+
+
+
+
+            <!-- CLIENT REVIEWS -->
+            <!-- <section id="client-review"> -->
+            <div class="container row" style="margin-top: 3rem">
+
+                <div class="col-lg-6 col-12 px-lg-4 px-md-3 px-sm-2 px-1">
+                    <h2 id="double-shaded-text-blue">
+                        <span>
+                            Why Switch to
+                        </span>
+                        <span>
+                            The Cloud?
+                        </span>
+                    </h2>
                     <p>
-                        at Zero Cost
+                        Cloud is a model of computing where servers, networks, storage, development tools, and even
+                        applications (apps) are enabled through the internet. Instead of organizations having to make
+                        major investments to buy equipment, train staff, and provide ongoing maintenance, some or all of
+                        these needs are handled by a cloud service provider.
                     </p>
+
+
                 </div>
+                <div class="col-lg-6 col-12">
+                    <div class="section_our_solution">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="our_solution_category">
+                                    <div class="solution_cards_box">
+                                        <div class="solution_card">
+                                            <div class="hover_color_bubble"></div>
+                                            <div class="so_top_icon">
+                                                <img src="/assets/homepage/why_switch_1.webp" alt="" id="Layer_1">
+                                            </div>
+                                            <div class="solu_title">
+                                                <h3>Measured Service</h3>
+                                            </div>
+                                            <div class="solu_description">
+                                                <p>
+                                                    Cloud is often pay-as-you-go, where you only pay for what you use.
+                                                    It is used and charges based on consumption. The cloud is the same.
+                                                </p>
+                                                <!-- <button type="button" class="read_more_btn">Read More</button> -->
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="solution_card">
+                                            <div class="hover_color_bubble"></div>
+                                            <div class="so_top_icon">
+                                                <img src="/assets/homepage/why_switch_2.webp" alt="" id="Layer_1">
+                                            </div>
+                                            <div class="solu_title">
+                                                <h3>On-Demand
+                                                </h3>
+                                            </div>
+                                            <div class="solu_description">
+                                                <p>
+                                                    Services can be requested and provisioned quickly, without the need
+                                                    for manual setup and configuration.
+                                                </p>
+                                                <!-- <button type="button" class="read_more_btn">Read More</button> -->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!--  -->
+                                    <div class="solution_cards_box sol_card_top_3">
+                                        <div class="solution_card">
+                                            <div class="hover_color_bubble"></div>
+                                            <div class="so_top_icon">
+                                                <img src="/assets/homepage/why_switch_3.webp" alt="" id="Layer_1">
+                                            </div>
+                                            <div class="solu_title">
+                                                <h3>Rapid Elasticity
+                                                </h3>
+                                            </div>
+                                            <div class="solu_description">
+                                                <p>
+                                                    Cloud platforms are elastic.
+                                                    An organization can scale its resource usage levels up or down
+                                                    quickly and easily as needs change.
+                                                </p>
+                                                <!-- <button type="button" class="read_more_btn">Read More</button> -->
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="solution_card">
+                                            <div class="hover_color_bubble"></div>
+                                            <div class="so_top_icon">
+                                                <img src="/assets/homepage/why_switch_4.webp" alt="" id="Layer_1">
+                                            </div>
+                                            <div class="solu_title">
+                                                <h3>Resource Pooling
+                                                </h3>
+                                            </div>
+                                            <div class="solu_description">
+                                                <p>
+                                                    Cloud often uses the multi-tenancy model. This means a single
+                                                    application is shared among several users.
+                                                </p>
+                                                <!-- <button type="button" class="read_more_btn">Read More</button> -->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
 
-        <section id="how_we_work" class="pt-3">
-            <h2 id="double-shaded-text-blue">
-                <span>
-                    How
-                </span>
-                <span>
-                    We Work
-                </span>
-            </h2>
-            <div class="container">
-                <div class="row mt-lg-5 mt-md-4 mt-3">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card px-3">
-                            <div class="card-top-img">
-                                <img src="./assets/homepage/how_we_work_1.webp" class="img-fluid">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-heading">
-                                    An unmatched ecosystem of partners
-                                </h4>
-                                <p>
-                                    We are the leading partner for AWS, Microsoft and Google and Acronis. Our
-                                    relationships can help you field any challenge.
-                                </p>
-                            </div>
-                        </div>
+        <section id="how_we_work" class="pt-lg-4 pt-pd-4 pt-sm-1">
+            <section class="light pt-4" id="projects">
+                <div class="container py-2">
+                    <div id="double-shaded-text-blue" style="text-transform: none;">
+                        <span>
+                            How We
+                        </span>
+                        <span>
+                            Work
+                        </span>
                     </div>
 
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card px-3">
-                            <div class="card-top-img">
-                                <img src="./assets/homepage/how_we_work_2.webp" class="img-fluid">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-heading">
-                                    Proven, industry-tailored cloud solutions
-                                </h4>
-                                <p>
-                                    We work with you, drawing on the experience of 34,000+ cloud projects in nearly
-                                    every industry, to build predictable, fast and secure cloud solutions.
-                                </p>
-                            </div>
+                    <article class="postcard light blue">
+                        <a class="postcard__img_link" href="./PROJECTS/error404.html">
+                            <img class="postcard__img" src="./assets/homepage/how_we_work_1.webp" alt="Image Title">
+                        </a>
+                        <div class="postcard__text t-dark">
+                            <h1 class="postcard__title red"><a href="#">An unmatched
+                                    ecosystem of partners</a></h1>
+                            <div class="postcard__bar"></div>
+                            <div class="postcard__preview-txt">We are the leading partner for AWS, Microsoft and Google
+                                and Acronis. Our relationships can help you field any challenge.</div>
                         </div>
-                    </div>
+                    </article>
 
 
-
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card px-3">
-                            <div class="card-top-img">
-                                <img src="./assets/homepage/how_we_work_3.webp" class="img-fluid">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-heading">
-                                    Professional and experienced
-                                </h4>
-                                <p>
-                                    Our cloud professionals have more than 12+ years of Industry Experience, combining
-                                    vast industry experience with specialized, state-of-the art skillsets.
-                                </p>
-                            </div>
+                    <article class="postcard light blue">
+                        <a class="postcard__img_link" href="./PROJECTS/error404.html">
+                            <img class="postcard__img" src="./assets/homepage/how_we_work_2.webp" alt="Image Title">
+                        </a>
+                        <div class="postcard__text t-dark">
+                            <h1 class="postcard__title red"><a href="#">Proven, industry-tailored
+                                    cloud solutions</a></h1>
+                            <div class="postcard__bar"></div>
+                            <div class="postcard__preview-txt">We work with you, drawing on the experience of 34,000+
+                                cloud projects in nearly every industry, to build predictable, fast and secure cloud
+                                solutions.</div>
                         </div>
-                    </div>
+                    </article>
+
+
+
+
+                    <article class="postcard light blue">
+                        <a class="postcard__img_link" href="./PROJECTS/error404.html">
+                            <img class="postcard__img" src="./assets/homepage/how_we_work_3.webp" alt="Image Title">
+                        </a>
+                        <div class="postcard__text t-dark">
+                            <h1 class="postcard__title red"><a href="#">Professional
+                                    and experienced</a></h1>
+                            <div class="postcard__bar"></div>
+                            <div class="postcard__preview-txt">Our cloud professionals have more than 12+ years of
+                                Industry Experience, combining vast industry experience with specialized, state-of-the
+                                art skillsets.</div>
+                        </div>
+                    </article>
+
+
+
 
                 </div>
-            </div>
-
-
-
+            </section>
         </section>
 
 
-        <section id="why_switch">
-            <h4 id="heading-blue" class="pt-3">
-                Cloud Computing
-            </h4>
-            <h2 id="double-shaded-text-blue" class="pt-2">
-                <span>
-                    Why Switch
-                </span>
-                <span>
-                    To Cloudologic
-                </span>
-            </h2>
-            <div class="container pt-2">
-                <p class="col-lg-9 col-md-10 col-11 mx-auto">
-                    Cloud is a model of computing where servers, networks, storage, development tools, and even
-                    applications (apps) are enabled through the internet. Instead of organizations having to make major
-                    investments to buy equipment, train staff, and provide ongoing maintenance, some or all of these
-                    needs are handled by a cloud service provider.
-                </p>
-            </div>
-            <div class="svg_section row container mx-auto pt-3 mt-lg-5 mt-md-3 mt-sm-2">
-                <div class="card-group">
-                    <div class="card">
-                        <img src="./assets/homepage/why_switch_1.webp" class="card-img-top" height="40" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Measured Service</h5>
-                            <p class="card-text">Cloud is often pay-as-you-go, where you only pay for what you use. It
-                                is used and charges based on consumption. The cloud is the same.</p>
-                        </div>
-                    </div>
 
-
-                    <div class="card">
-                        <img src="./assets/homepage/why_switch_2.webp" class="card-img-top" height="40" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">On-Demand</h5>
-                            <p class="card-text">Services can be requested and provisioned quickly, without the need for
-                                manual setup and configuration.</p>
-                        </div>
-                    </div>
-
-
-
-
-                    <div class="card">
-                        <img src="./assets/homepage/why_switch_3.webp" class="card-img-top" height="40" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Rapid Elasticity</h5>
-                            <p class="card-text">Cloud platforms are elastic.
-                                An organization can scale its resource usage levels up or down quickly and easily as
-                                needs change.</p>
-                        </div>
-                    </div>
-
-
-
-                    <div class="card">
-                        <img src="./assets/homepage/why_switch_4.webp" class="card-img-top" height="40" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Resource Pooling</h5>
-                            <p class="card-text">Cloud often uses the multi-tenancy model. This means a single
-                                application is shared among several users.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section id="contact_us" class="pb-2 pt-2">
-            <div class="row">
-                <div class="col-12 col-lg-5 col-md-6">
+            <div class="row mx-auto" style="width: 100%;">
+                <div class="col-12 col-lg-5 col-md-12 col-11 mx-auto">
                     <h3>Get in touch</h3>
                     <p>
                         Let's Meet Up And Talk About How Can We Help You With Your Cloud Journey
                     </p>
                 </div>
-                <div class="col-0 col-lg-1 "></div>
-                <div class="col-12 col-lg-5 col-md-6 ">
+                <!-- <div class="col-0 col-lg-1 "></div> -->
+                <div class="col-12 col-lg-5 col-md-12 col-11 mx-auto justify-content-center">
                     <form action="https://formsubmit.co/mihir190801@gmail.com" method="POST">
                         <div class="form-group">
                             <input type="hidden" name="_next" value="https://airodragon.github.io/cloudologic-copy/">
@@ -528,18 +550,18 @@
                             <div class="form-row">
                                 <div class="col mt-2">
                                     <input type="text" name="name" class="form-control" placeholder="Full Name"
-                                        required>
+                                        required="">
                                 </div>
 
                                 <div class="col mt-2">
                                     <input type="email" name="email" class="form-control" placeholder="Email Address"
-                                        required>
+                                        required="">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group mt-2">
                             <textarea placeholder="Your Message" class="form-control" name="message" rows="10"
-                                required></textarea>
+                                required="" data-gramm="false" wt-ignore-input="true"></textarea>
                         </div>
                         <button type="submit" class="btn btn-lg btn-dark btn-block  mt-2 mb-2">Submit Form</button>
                     </form>
@@ -548,17 +570,87 @@
         </section>
 
 
-        <footer id="footer">
-
-        </footer>
 
 
+        <!-- </section> -->
 
 
     </main>
-    <script src="js/header.js"></script>
-    <script src="js/script.js"></script>
-
+    <footer class="pt-3">
+        <img src="../assets/Cloudologic_Logo_White.webp" alt="" class="mx-auto d-block">
+        <p class="text-light pt-2 px-lg-2 px-md-1 px-1">
+            Cloudologic was started as a enterprise skills delivery organization back in 2010. It was then named PW. Our
+            dream was to enhance &amp; mold futures for a better tomorrow.
+        </p>
+        <div class="footer">
+            <div class="contain">
+                <div class="col">
+                    <h1>Cloud Services</h1>
+                    <ul>
+                        <li>Managed Cloud Services</li>
+                        <li>Application Modernization</li>
+                        <li>Cloud Migration</li>
+                        <li>DevOps</li>
+                        <li>SecOps</li>
+                        <li>FinOps</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>Cyber Security</h1>
+                    <ul>
+                        <li>Cyber Security Assessment</li>
+                        <li>Cyber Security Cloud</li>
+                        <li>Cloud Backup and Disaster Recovery</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>Licennsing Services</h1>
+                    <ul>
+                        <li>Microsoft 365</li>
+                        <li>Dynamic 365</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>Learning Solutions</h1>
+                    <ul>
+                        <li>Enterprise Learning</li>
+                        <li>SkillKai</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>Managed Services</h1>
+                    <ul>
+                        <li>Managed Infrastructure</li>
+                        <li>Service Desk</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>End User Computing</h1>
+                    <ul>
+                        <li>Desktop As A Service</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>About US</h1>
+                    <ul>
+                        <li>Cookie Policy</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="col social">
+                    <h1>Social</h1>
+                    <ul>
+                        <li> <i class="fa fa-instagram"></i> </li>
+                        <li><i class="fa fa-facebook    "></i></li>
+                        <li><i class="fa fa-linkedin"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
         </script>
@@ -566,6 +658,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
+
+    <!-- CUSTOM JS -->
+    <script src="./js/header.js"></script>
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>

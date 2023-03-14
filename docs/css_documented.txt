@@ -1,0 +1,40 @@
+FONT DETAILS
+
+Font Used - Lato 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+FOR DESKTOP
+Small text on heading
+Lato bold 1.2rem
+
+Heading 
+Lato Bold 2.5rem
+
+Body text
+Lato Regular 1.2rem
+Lato Regular 1rem
+
+
+FOR TABLET/MEDIUM DEVICE
+Small text on heading
+Lato bold 1rem
+
+Heading 
+Lato Bold 2.0rem
+
+Body text
+Lato Regular 1.2rem
+Lato Regular 1rem
+
+FOR MOBILE PHONE
+
+Small text on heading
+Lato bold 1.2rem
+
+Heading 
+Lato Bold 1.5rem
+
+Body text
+Lato Regular 1rem
+Lato Regular 1rem
